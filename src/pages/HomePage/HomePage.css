@@ -1,0 +1,108 @@
+.home-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../../../public/shop-customers.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-banner {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.home-banner h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.home-banner p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+.home-button {
+  background-color: #008cba;
+  color: white;
+  padding: 1em 2em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #007ba7;
+}
+
+.home-main {
+  flex: 1;
+  padding: 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-products {
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+.featured-products h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #4caf50;
+}
+
+.promotions {
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+.promotions h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #4caf50;
+}
+
+.home-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+  .home-header h1 {
+    font-size: 2em;
+  }
+
+  .home-header p {
+    font-size: 1em;
+  }
+
+  .home-main {
+    padding: 1em;
+  }
+
+  .featured-products h2,
+  .promotions h2 {
+    font-size: 1.5em;
+  }
+}
